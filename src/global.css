@@ -1,0 +1,57 @@
+/* ************************************************************ */
+/* -------------   	   GLOBAL CSS VARIABLES       ------------- */
+/* ************************************************************ */
+
+:root {
+	/* ___________ */
+	/* 	 Colors    */
+	/* ----------- */
+	--primary-dark: blue;
+	--primary-light: yellow;
+	--shade-dark: rgb(51, 51, 51);
+	/* ___________ */
+	/*   Borders   */
+	/* ----------- */
+	--brdr-rad-sm: 3px;
+	--brdr-rad-lg: 10px;
+	/* ___________ */
+	/*   Effects   */
+	/* ----------- */
+	--box-shadow-default: 2px 2px 5px grey;
+	/* ___________ */
+	/*    Fonts    */
+	/* ----------- */
+	--font-sm: 0.8rem;
+	--font-md: 1.15rem;
+	--font-lg: 2rem;
+	--font-xl: 3rem;
+	--space-txt: 0.15rem;
+}
+
+/* ****************************************************** */
+/* -------------   	   GLOBAL STYLING       ------------- */
+/* ****************************************************** */
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	letter-spacing: 0.12rem;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* ******************************************************* */
+/* -------------   	   UTILITY CLASSES       ------------- */
+/* ******************************************************* */
+
+.default-p {
+	font-size: var(--font-sm);
+	color: var(--shade-dark);
+	letter-spacing: var(--space-txt);
+}
